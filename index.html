@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Akarius work</title> <!--тут название сайта -->
+    <link href="styles.css" rel="stylesheet"> <!--тут подключение стилей-->
+   </head>
+ <body>
+  <div class="container"> <!--тут блок-->                 
+    <DIV class="info"> <!--тут блок-->
+      <!-- <img src="https://sun9-14.userapi.com/impg/oVMvDV1Rw5KY-JTjZQfb8sHNdci5k0emYg39QA/WkM4ZkXJ8xE.jpg?size=810x1080&quality=95&sign=3bea512a963ccdcebcc0f3dc98f725f2&type=album"  alt="тут моё лицо" class="avatar"/>
+      тут картинка с ссылки откуда то, alt это если фотка не открывается, будет текст -->
+      <img src="avatarochka.jpg" alt="тут моё лицо" class="avatar1"/> <!--тут картинка из папки с проектом и ее размер, alt это если фотка не открывается, будет текст-->
+      
+      <div class="info-text">      
+        <h1>Akarius Kirill</h1> <!--тут первый заголовок-->
+
+        <h2>А ещё я люблю <em>Ксюшку</em></h2> <!-- а тут второй заголовок и em наклонняет текст-->
+
+        <p>И да я Кирилл изучаю <strong>HTML</strong></p> <!--тут параграф и тольстый текст-->
+              
+        <P> В целом занимабсь музыкой, но что то новое хочется изучить</P> <!--тут параграф-->     
+    
+        <!-- <hr> линия разделения -->
+
+        <h4> И вот ссылочка на меня: </h4>
+            
+        <a href="https://vk.com/akkarius" target="_blank">VK</a><!--элемент списка, что в него входит. А - это для ссылок, href по переходной ссылке. Target показывает где открыть ссылку, бланк это для переход по ссылке в новой вкладке-->
+    </div>
+  </DIV>
+
+  <div class="card bg-yellow">
+    <h2>Вот чем я занимаюсь:</h2>
+
+    <ol type ="I" class="list">  <!--это список упорядоченный. А это атрибут type - это стиль маркеров -->
+      <li>Изучаю HTML</li>
+      <li>Пишу биточки</li>
+      <li>Пишу текста</li>
+      <li>Планирую петь</li>
+    </ol>
+  </div>  
+ 
+  <div class="card bg-green">
+    <h2>Мой опыт работы</h2>
+    <table class="table"> <!--тут таблица-->
+    <tbody>
+       <tr> 
+        <td>2020-2021</td> <!--тут ячейка(колона)-->
+        <td>Мак</td> 
+        <td>Доставщик</td>
+      </tr>
+    </tbody>
+      <tr>
+        <td>2021-2023</td>
+        <td>КБ</td>
+        <td>ОПП</td>
+      </tr>
+      <tr>
+        <td>2024-2025</td>
+        <td>Завод</td>
+        <td>Монтажник</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card bg-red">
+     <h2>Видео вк:</h2>
+     <ul class="link-list">
+      <li>
+          <a href="https://vkvideo.ru/video183866049_456239379" target="_blank">Dead by Daylight 2024.11.20 - 09.37.18.02</a>
+      </li>
+      <li> 
+        <a href="https://www.youtube.com/watch?v=kgK-W0_m764">Нюберг смотрит Джарахов - Не надо влюбляться</a>
+      </li>
+  </ul> <!--это ссылка на другую страницу-->
+  </div>
+
+ 
+  <div class="card bg-yellow">
+    <h2>Мои навыки:</h2>
+      <table> <!--тут таблица-->
+        <thead>
+          <caption><strong><em>Мои навыки</em></strong></caption> <!--тут заголовок таблицы-->
+          <tr> <!--тут строка-->
+            <th>Навык</th> <!--тут заголовок-->
+            <th>Уровень</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr> 
+            <td>HTML</td> <!--тут ячейка(колона)-->
+            <td>Начальный</td> 
+          </tr>
+          <tr>
+            <td>Музыка</td>
+            <td>Средний</td>
+          </tr>
+          <tr>
+            <td>Пение</td>
+            <td>Средний</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+    
+      <div class="contact">
+      <h2>Писать мне сюда</h2>
+        <form action="/"> <!--форма-->
+      <div class="row">
+          <div class="form-group"> <!--тут блок-->
+            <label for="name"><strong>Как вас величать:</strong></label> <!--тут текст возле поле ввода-->
+            <input tape="text" id="name" placeholder="ты хто?"> <!--тут поле ввода-->        
+          </div>
+      
+        
+          <div class="form-group">
+            <label for="email"><strong>Куда вам чирикать:</strong></label>
+            <input tape="email" id="email" placeholder="Куда???">
+          </div>
+      </div>      
+                        
+            <!-- <tr>
+              <td><label for="password"><strong>Гони пароль</strong></label></td>
+              <td> <input id="password" type="password" placeholder="Пиши давай"></td> поле для пароля-->
+          <!-- </tr> --> 
+          
+          <!-- <tr>
+            <td><label for="color"></label><strong> Выбирай свой цвет кожи</strong></label></td>
+            <td><input id="color" type="color"></td>
+          </tr> -->
+          
+           <!-- <tr>
+            <td><label for="text"><strong>Тут пиши свой гендер</strong></label></td>
+            <td><input type="text" placeholder="Но мне всё равно"id="text"></td>
+          </tr> -->
+        
+      <div class="form-group">    
+        <label for="text"><strong>Что ты хочешь мне сказать:</strong> </label>
+        <textarea id="text" rows="2" cols="21"></textarea>     
+      </div>
+       
+        <input class="form-group1" type="submit" value="Отправляй уже..."> <!--кнопка отправить-->   
+
+      </form>
+  </div>
+       <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> -->
+      <div class="position">
+        <div class="box"></div>
+      </div>
+      
+      <div style="margin-bottom: 500px;"> </div>
+    </div>
+ </body>
+</html>
